@@ -96,17 +96,21 @@ nav .fa{
     .nav-links ul li{
         display: block;
     }
-    .nav-links{
-        position:absolute;
-        background: #f44336;
-        height: 100vh;
-        width: 200px;
-        top: 0;
-        right: -200px;
-        text-align: left;
-        z-index: 2;
-        transition: 1s;
-    }
+    html, body {
+    overflow-x: hidden; /* Prevent horizontal scrolling */
+}
+
+.nav-links {
+    position: absolute;
+    background: #f44336;
+    height: 100vh;
+    width: 200px;
+    top: 0;
+    right: -200px; /* Hide the menu off-screen */
+    text-align: left;
+    z-index: 2;
+    transition: 1s ease;
+}
     nav .fa{
     display:block;
     color:white;
@@ -127,11 +131,6 @@ text-decoration:none;
 color:black;
 font-size:20px;
 margin-left:0%;
-  
-
-}
-body {
-    overflow-x: hidden;
 }
 * {
     max-width: 100vw;
