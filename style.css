@@ -130,6 +130,9 @@ margin-left:0%;
   
 
 }
+body {
+    overflow-x: hidden;
+}
 }
 
 /*------aboutus------*/
