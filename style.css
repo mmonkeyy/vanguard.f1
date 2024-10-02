@@ -167,7 +167,6 @@ b a:hover {
     background-size: cover;
     background-position: center;
     transition: 1s;
-    color: white;
 }
 b a{
  display: inline-block;
