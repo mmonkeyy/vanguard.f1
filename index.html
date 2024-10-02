@@ -1,3 +1,4 @@
+<!--------made by the goat anas matin, dont copy-------->
 <!DOCTYPE html>
 <html>
 <head>
@@ -16,9 +17,9 @@
     <div class="nav-links" id="navlinks">
    <i class="fa fa-times" onclick="HideMenu()"></i>
          <ul>
-       <li><a href="#home">HOME</a></li> <!-- Corrected for Home link -->
-       <li><a href="#about">ABOUT US</a></li> <!-- Linking to About section -->
-       <li><a href="#contactus">CONTACT US</a></li> <!-- Add IDs for other sections -->
+       <li><a href="#home">HOME</a></li> 
+       <li><a href="#about">ABOUT US</a></li> 
+       <li><a href="#contactus">CONTACT US</a></li> 
        <li><a href="#portfolios">PORTFOLIOS</a></li>
        <li><a href="#prototypes">PROTOTYPES</a></li>
    </ul>
@@ -89,6 +90,15 @@
         function HideMenu(){
             navlinks.style.right = "-200px";
         }
+function ShowMenu() {
+    navlinks.style.right = "0";
+    document.body.style.overflowX = "hidden";  
+}
+
+function HideMenu() {
+    navlinks.style.right = "-200px";
+    document.body.style.overflowX = "hidden"; 
+}
     </script>
 </body>
 </html>
