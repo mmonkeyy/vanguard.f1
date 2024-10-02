@@ -162,7 +162,7 @@ font-size:20px;
     box-sizing: border-box;
     transition: 0.5s;
 }
-}
+
 b a:hover{    
     background: navy;
     transition: 1s;
