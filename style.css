@@ -163,7 +163,7 @@ font-size:20px;
     transition: 0.5s;
 }
 b a:hover{    
-    background: black;
+    background: gray;
     transition: 1s;
     color:white;
 
