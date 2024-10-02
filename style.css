@@ -153,7 +153,7 @@ font-size:20px;
     display: flex;
     justify-content: space-between;
 }
-course-col{
+.course-col{
     flex-basis:31%;
     background: #fff3f3;
     border-radius: 10px;
@@ -162,13 +162,13 @@ course-col{
     box-sizing: border-box;
     transition: 0.5s;
 }
-b a:hover{    
-    background: gray;
+b i a:hover{    
+    background: navy;
     transition: 1s;
     color:white;
 
 }
-b a{
+b i a{
  display: inline-block;
  text-decoration: none;
  color:black;
