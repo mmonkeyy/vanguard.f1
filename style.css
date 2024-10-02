@@ -163,17 +163,12 @@ font-size:20px;
     transition: 0.5s;
 }
 }
-b a::after{
-    content:"";
-    width: 0%;
-    height: 2px;
-    background: #f44336;
-    display: block;
-    margin: auto;
-    transition: 0.5s;
+b a:hover{    
+    background: navy;
+    transition: 1s;
+    color:white;
+
 }
-b a:hover::after{
-    width:100%
 b a{
  display: inline-block;
  text-decoration: none;
@@ -185,6 +180,7 @@ b a{
  margin-left:5%;
  margin-right:5%;
 }
+
 .contact{
     width: 80%;
     margin: auto;
