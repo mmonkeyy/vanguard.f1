@@ -162,11 +162,12 @@ font-size:20px;
     box-sizing: border-box;
     transition: 0.5s;
 }
-b a:hover{    
-    background: navy;
+b a:hover {    
+    background-image: url(logo.png);
+    background-size: cover;
+    background-position: center;
     transition: 1s;
-    color:white;
-
+    color: white;
 }
 b a{
  display: inline-block;
