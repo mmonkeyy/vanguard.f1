@@ -121,6 +121,8 @@ nav .fa{
     .row={
         flex-direction: column;
     }
+b a{
+  margin-left:5%
     }
 
 /*------aboutus------*/
