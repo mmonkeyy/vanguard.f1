@@ -162,20 +162,13 @@ font-size:20px;
     box-sizing: border-box;
     transition: 0.5s;
 }
-b {
-    display: inline-block;
-    width: 150px; 
-    height: 50px; 
-}
-
-}
-b a:hover{    
+b i a:hover{    
     background: navy;
     transition: 1s;
     color:white;
 
 }
-b a{
+b i a{
  display: inline-block;
  text-decoration: none;
  color:black;
