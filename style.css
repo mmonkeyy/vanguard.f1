@@ -162,25 +162,19 @@ font-size:20px;
     box-sizing: border-box;
     transition: 0.5s;
 }
-
-b a:hover{    
-    background: navy;
-    transition: 1s;
-    color:white;
-
+b a::after{
+    content:"";
+    width: 0%;
+    height: 2px;
+    background: #f44336;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
 }
-b a{
- display: inline-block;
- text-decoration: none;
- color:black;
- padding: 5px;
- background: transparent;
- position: relative;
- cursor: pointer;
- margin-left:5%;
- margin-right:5%;
+b a:hover::after{
+    width:100%
+    
 }
-
 .contact{
     width: 80%;
     margin: auto;
