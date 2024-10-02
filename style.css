@@ -162,13 +162,13 @@ font-size:20px;
     box-sizing: border-box;
     transition: 0.5s;
 }
-b a:hover{    
+course-col:hover{    
     background: gray;
     transition: 1s;
     color:white;
 
 }
-b a{
+course-col{
  display: inline-block;
  text-decoration: none;
  color:black;
