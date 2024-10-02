@@ -168,27 +168,23 @@ b {
     height: 50px; 
 }
 
-b a {
-    display: block;
-    text-decoration: none;
-    color: black;
-    padding: 10px;
-    background: transparent;
-    cursor: pointer;
-    text-align: center;
-    line-height: 50px; /* Vertically center text */
-    width: 100%; /* Takes up full width of b */
-    height: 100%; /* Takes up full height of b */
-    position: relative;
 }
-
-b a:hover {    
-    background-image: url('logo.png'); /* Replace with actual image URL */
-    background-size: cover; /* Cover entire area */
-    background-position: center; /* Center the image */
-    background-repeat: no-repeat; /* Prevent tiling */
+b a:hover{    
+    background: navy;
     transition: 1s;
-    color: white;
+    color:white;
+
+}
+b a{
+ display: inline-block;
+ text-decoration: none;
+ color:black;
+ padding: 5px;
+ background: transparent;
+ position: relative;
+ cursor: pointer;
+ margin-left:5%;
+ margin-right:5%;
 }
 .contact{
     width: 80%;
