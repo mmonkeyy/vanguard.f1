@@ -162,13 +162,13 @@ font-size:20px;
     box-sizing: border-box;
     transition: 0.5s;
 }
-b i a:hover{    
+b a:hover{    
     background: navy;
     transition: 1s;
     color:white;
 
 }
-b i a{
+b a{
  display: inline-block;
  text-decoration: none;
  color:black;
